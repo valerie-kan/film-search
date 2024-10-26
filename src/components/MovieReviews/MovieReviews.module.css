@@ -1,0 +1,22 @@
+.reviewList {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.reviewInfo {
+  padding: 10px 20px;
+  box-shadow: 0 -2px 1px rgba(171, 205, 205, 0.2);
+}
+
+.reviewAuthor {
+  font-weight: 600;
+}
+
+.reviewText {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.emptyText {
+  padding-left: 60px;
+}

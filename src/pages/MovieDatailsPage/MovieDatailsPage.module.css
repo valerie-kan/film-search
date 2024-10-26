@@ -1,0 +1,36 @@
+.goBackLink {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: currentColor;
+  margin: 10px;
+  border: 1px solid white;
+  width: 100px;
+  border-radius: 8px;
+}
+
+.goBackLink:hover {
+  color: rgb(57, 178, 218);
+  border-color: rgb(57, 178, 218);
+}
+
+.addInfoSection {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.addInfoTtl {
+  font-weight: 600;
+  margin: 0 0 10px 0;
+  padding-left: 60px;
+}
+
+.addInfoLink {
+  margin-left: 65px;
+  color: inherit;
+}
+
+.addInfoLink:hover,
+.active {
+  color: rgb(57, 178, 218);
+}

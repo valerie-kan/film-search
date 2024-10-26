@@ -1,0 +1,14 @@
+.notFoundText {
+  font-size: 18px;
+  text-align: center;
+}
+
+.notFoundLink {
+  color: currentColor;
+  display: block;
+  text-align: center;
+}
+
+.notFoundLink:hover {
+  color: rgb(57, 178, 218);
+}

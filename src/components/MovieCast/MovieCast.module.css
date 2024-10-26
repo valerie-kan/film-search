@@ -1,0 +1,30 @@
+.castList {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.actorInfo {
+  width: 120px;
+  height: 267px;
+  overflow: auto;
+}
+
+.actorPic {
+  border-radius: 8px;
+  display: block;
+  object-fit: cover;
+}
+
+.actorText {
+  margin-top: 5px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.span {
+  font-weight: 600;
+}

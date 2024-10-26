@@ -1,0 +1,11 @@
+.filmItem {
+  list-style-type: none;
+}
+
+.filmLink {
+  color: white;
+}
+
+.filmLink:hover {
+  color: rgb(57, 178, 218);
+}

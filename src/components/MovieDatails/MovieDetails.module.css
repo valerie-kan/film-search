@@ -1,0 +1,31 @@
+.aboutFilmSection {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  box-shadow: 2px 2px 28px rgba(171, 205, 205, 0.2);
+}
+
+.img {
+  border-radius: 8px;
+  display: block;
+  align-items: center;
+}
+
+.filmInfo {
+  padding: 5px;
+}
+
+.overviewTtl {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.overviewText {
+  margin-top: 0;
+}
+
+.span {
+  font-weight: 700;
+}
