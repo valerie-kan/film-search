@@ -24,7 +24,6 @@ const MovieReviews = () => {
           `${url}movie/${movieId}/reviews`,
           options
         );
-        // console.log(data.results);
         if (data.results.length === 0) {
           setReviewsAreEmpty(true);
         } else {
@@ -39,7 +38,7 @@ const MovieReviews = () => {
       }
     };
     fetchReviews();
-  }, []);
+  }, [movieId]);
 
   return (
     <>
