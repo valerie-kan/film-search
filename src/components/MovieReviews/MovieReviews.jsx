@@ -48,7 +48,7 @@ const MovieReviews = () => {
       ) : (
         <ul className={css.reviewList}>
           {reviewsAreEmpty ? (
-            <p className={css.emptyText}>
+            <p className={css.noReviews}>
               There are no reviews for this movie yet!
             </p>
           ) : (

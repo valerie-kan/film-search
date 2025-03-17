@@ -14,7 +14,7 @@ const MovieDetails = ({ movieDetails }) => {
         />
       </div>
       <div className={css.filmInfo}>
-        <h2>{movieDetails.title}</h2>
+        <h2 className={css.filmTitle}>{movieDetails.title}</h2>
         <p className={css.overviewTtl}>Overview</p>
         <p className={css.overviewText}>{movieDetails.overview}</p>
         <p>

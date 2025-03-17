@@ -53,7 +53,7 @@ const MoviesPage = () => {
           name="movieName"
           placeholder="Enter search term..."
           autoComplete="off"
-          className={css.searchWord}
+          className={css.searchInput}
         />
         <button type="submit" className={css.searchButton}>
           <BiSearchAlt />
@@ -62,8 +62,16 @@ const MoviesPage = () => {
       {loading && <Loader />}
       {error ? (
         <ErrorMessage errMessage={errMessage} />
-      ) : (
+      ) : filmsList.length > 0 ? (
         <MovieList filmsList={filmsList} />
+      ) : (
+        searchWord &&
+        !loading &&
+        filmsList.length === 0 && (
+          <p className={css.notFoundFilms}>
+            Sorry! We don't have any movies according to your search term!
+          </p>
+        )
       )}
     </>
   );

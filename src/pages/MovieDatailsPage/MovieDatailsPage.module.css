@@ -3,7 +3,7 @@
   justify-content: space-evenly;
   align-items: center;
   color: currentColor;
-  margin: 10px;
+  margin: 20px;
   border: 1px solid white;
   width: 100px;
   border-radius: 8px;
@@ -15,18 +15,18 @@
 }
 
 .addInfoSection {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 20px auto;
 }
 
 .addInfoTtl {
   font-weight: 600;
-  margin: 0 0 10px 0;
-  padding-left: 60px;
+  font-size: 22px;
+  margin: 0 50px 10px;
 }
 
 .addInfoLink {
   margin-left: 65px;
+  font-size: 18px;
   color: inherit;
 }
 

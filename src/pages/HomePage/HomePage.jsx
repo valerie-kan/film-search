@@ -33,10 +33,10 @@ const HomePage = () => {
       {error ? (
         <ErrorMessage errMessage={errMessage} />
       ) : (
-        <>
+        <div className={css.filmListCont}>
           <h1 className={css.title}>Trending today</h1>
           <MovieList filmsList={filmsList} />
-        </>
+        </div>
       )}
     </>
   );

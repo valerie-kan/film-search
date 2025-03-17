@@ -45,7 +45,6 @@ const MovieDatailsPage = () => {
   }, [movieId]);
 
   const backLink = location.state ?? "/movies";
-  console.log(location);
 
   return (
     <>

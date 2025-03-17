@@ -1,4 +1,6 @@
 .aboutFilmSection {
+  width: 95vw;
+  margin: 0 auto;
   padding: 10px;
   display: flex;
   align-items: center;
@@ -13,7 +15,16 @@
 }
 
 .filmInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
   padding: 5px;
+}
+
+.filmTitle {
+  font-size: 27px;
+  color: rgb(57, 178, 218);
+  margin-bottom: 10px;
 }
 
 .overviewTtl {

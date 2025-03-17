@@ -1,22 +1,18 @@
 .reviewList {
-  list-style-type: none;
-  padding-left: 0;
+  width: 95vw;
 }
 
 .reviewInfo {
-  padding: 10px 20px;
+  padding: 16px;
   box-shadow: 0 -2px 1px rgba(171, 205, 205, 0.2);
 }
 
 .reviewAuthor {
   font-weight: 600;
+  margin-bottom: 16px;
 }
 
-.reviewText {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.emptyText {
-  padding-left: 60px;
+.noReviews {
+  padding-left: 40px;
+  font-style: italic;
 }

@@ -1,20 +1,22 @@
 .castList {
-  list-style-type: none;
+  width: 90vw;
   display: flex;
   justify-content: center;
-  gap: 20px;
+  align-items: center;
+  column-gap: 20px;
+  row-gap: 30px;
   flex-wrap: wrap;
-  padding: 10px;
 }
 
-.actorInfo {
-  width: 120px;
-  height: 267px;
+.castItem {
+  width: calc((100% - 30px * 5) / 6);
+  height: 260px;
   overflow: auto;
 }
 
 .actorPic {
   border-radius: 8px;
+  width: 100%;
   display: block;
   object-fit: cover;
 }

@@ -7,6 +7,8 @@ import { url, options, baseImgUrl } from "../Url/UrlInfo";
 import ErrorMessage from "../ErrorMessage/ErrorMessage";
 import Loader from "../Loader/Loader";
 
+import noImg from "../../assets/noImg.jpg";
+
 const MovieCast = () => {
   const { movieId } = useParams();
   const [movieCast, setMovieCast] = useState(null);
@@ -42,13 +44,13 @@ const MovieCast = () => {
       ) : (
         <ul className={css.castList}>
           {movieCast &&
-            movieCast.map((cast) => (
-              <li key={cast.id} className={css.actorInfo}>
+            movieCast.slice(0, 12).map((cast) => (
+              <li key={cast.id} className={css.castItem}>
                 <img
                   src={
                     cast.profile_path
                       ? `${baseImgUrl}${cast.profile_path}`
-                      : "https://cdn.pixabay.com/photo/2024/04/16/18/16/ai-generated-8700575_1280.jpg"
+                      : noImg
                   }
                   alt="Photo of an actor"
                   width="120"
