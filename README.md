@@ -1,4 +1,4 @@
-# Films Search
+# Film Search
 
 <img src="https://movies-search-taupe-five.vercel.app/movie-screenshot.png">
 
