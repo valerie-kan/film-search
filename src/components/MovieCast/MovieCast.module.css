@@ -3,27 +3,35 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  column-gap: 20px;
+  column-gap: 10px;
   row-gap: 30px;
   flex-wrap: wrap;
 }
 
 .castItem {
   width: calc((100% - 30px * 5) / 6);
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
   height: 260px;
   overflow: auto;
+}
+
+.imgCont {
+  width: 80%;
+  height: 70%;
 }
 
 .actorPic {
   border-radius: 8px;
   width: 100%;
+  height: 100%;
   display: block;
   object-fit: cover;
 }
 
 .actorText {
-  margin-top: 5px;
-  margin-bottom: 0;
   text-align: center;
 }
 

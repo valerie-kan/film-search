@@ -46,17 +46,19 @@ const MovieCast = () => {
           {movieCast &&
             movieCast.slice(0, 12).map((cast) => (
               <li key={cast.id} className={css.castItem}>
-                <img
-                  src={
-                    cast.profile_path
-                      ? `${baseImgUrl}${cast.profile_path}`
-                      : noImg
-                  }
-                  alt="Photo of an actor"
-                  width="120"
-                  height="160"
-                  className={css.actorPic}
-                />
+                <div className={css.imgCont}>
+                  <img
+                    src={
+                      cast.profile_path
+                        ? `${baseImgUrl}${cast.profile_path}`
+                        : noImg
+                    }
+                    alt="Photo of an actor"
+                    width="120"
+                    height="160"
+                    className={css.actorPic}
+                  />{" "}
+                </div>
                 <p className={css.actorText}>{cast.original_name}</p>
                 <p className={css.actorText}>
                   <span className={css.span}>Character: </span>
